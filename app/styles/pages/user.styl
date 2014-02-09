@@ -1,0 +1,87 @@
+@import 'util'
+.user
+    &-profile-wrapper,
+    &-message-wrapper
+        float: left
+        width: 50%
+
+    &-profile-wrapper
+        box-shadow: 0 4px 10px rgba(0, 0, 0, .5)
+
+    &-profile-header
+        background: url('/images/profile-bg.jpg') center bottom no-repeat
+        background-size: cover;
+        padding: 120px 0 20px 30px
+
+
+    &-profile-header-name,
+    &-profile-header-tags-container
+        display: inline-block
+        vertical-align: top
+
+    &-profile-header-name
+        white-space: nowrap;
+        margin-right: 50px
+        overflow: hidden;
+        line-height: 43px
+        font-size(20px)
+        width: 240px
+        text-align: left
+        color: #fff
+        opacity .7
+        border-bottom: 1px solid #fff
+        &:focus
+            opacity 1
+            outline: none
+            border-bottom: 1px solid #fff
+
+    &-profile-header-tags-input
+        height: 45px
+        padding:5px 15px
+        border: none
+        width: 350px
+        &:focus
+            outline: none
+            box-shadow: 0 1px 1px rgba(0,0,0, .3) inset
+
+    &-profile-info-interests-container
+        ul
+            margin-left: -5px
+            padding: 0 0 0 30px
+            list-style-type: none
+        li
+            color: #fff
+            padding: 10px 40px
+            margin: 2px 0px
+            background-color: #77a139
+            display: inline-block
+
+    &-profile-about-wrapper
+        margin-top: 15px
+        padding:0 25px
+        textarea
+            resize: none
+            width: 100%
+            background-color: #f4f4f4
+            border: none
+            margin: 0
+            padding: 12px 15px
+            height: 80px
+            &:focus
+                outline: none
+                box-shadow: 0 1px 1px rgba(0,0,0, .3) inset
+
+    &-profile-eat-wrapper
+        float: left
+        width: 100%
+        margin-top: 20px
+        border 1px solid #00ff00
+        padding-left: 25px
+    
+    &-profile-eat-container
+        width: 50%
+        float: left
+
+    &-profile-budget
+        float: left
+        width: 50%

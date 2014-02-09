@@ -1,0 +1,48 @@
+@import 'util'
+
+.main
+    &-header
+        padding-top: 30px
+        height: 290px
+        background-position: center center
+        background-size: 100% 200%
+        background-image: radial-gradient(ellipse at center, #6b9922 0%,#486b15 100%)
+
+    &-header-logo
+        margin:30px auto 0
+        width: 338px
+        height: 64px
+        background: url('/images/logo.png') no-repeat left top
+
+    &-header-description
+        line-height: 1.5
+        text-align: center
+        width: 640px
+        color: #fff
+        margin: 50px auto 0
+
+    &-login-button
+        margin: 70px auto 0
+        width: 228px
+        height: 51px
+        background: url('/images/login-facebook.png') no-repeat left top
+        background-size: 100% auto
+        &:hover
+            cursor: pointer
+
+    &-footer
+        margin: auto
+        ul
+            margin: 250px 0 0
+            padding: 0
+            text-align: center
+            list-style-type: none
+        li
+            padding: 0 10px
+            display: inline-block
+
+        a
+            color #4b7016
+            text-decoration: none
+            &:hover
+                border-bottom: 1px solid #4b7016
