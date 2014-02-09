@@ -5,6 +5,9 @@
         float: left
         width: 50%
 
+    &-message-wrapper
+        box-shadow: 3px 0px 2px 0 rgba(0, 0, 0, .2) inset
+
     &-profile-wrapper
         box-shadow: 0 4px 10px rgba(0, 0, 0, .5)
 
@@ -12,7 +15,6 @@
         background: url('/images/profile-bg.jpg') center bottom no-repeat
         background-size: cover;
         padding: 120px 0 20px 30px
-
 
     &-profile-header-name,
     &-profile-header-tags-container
@@ -37,12 +39,12 @@
 
     &-profile-header-tags-input
         height: 45px
-        padding:5px 15px
+        padding: 5px 15px
         border: none
         width: 350px
         &:focus
             outline: none
-            box-shadow: 0 1px 1px rgba(0,0,0, .3) inset
+            box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset
 
     &-profile-info-interests-container
         ul
@@ -58,7 +60,7 @@
 
     &-profile-about-wrapper
         margin-top: 15px
-        padding:0 25px
+        padding: 0 25px
         textarea
             resize: none
             width: 100%
@@ -69,7 +71,7 @@
             height: 80px
             &:focus
                 outline: none
-                box-shadow: 0 1px 1px rgba(0,0,0, .3) inset
+                box-shadow: 0 1px 1px rgba(0, 0, 0, .3) inset
 
     &-profile-eat-wrapper
         float: left
@@ -115,7 +117,6 @@
             outline: none
 
     &-profile-eat-budget-wrapper
-
         margin-top: 20px
         display: inline-block
         padding: 10px
@@ -132,3 +133,31 @@
     &-profile-budget
         float: left
         width: 50%
+
+    &-message-wrapper
+        background-color: #eeeeee
+
+    &-map-wrapper
+        height: 300px//TODO: REMOVE HARD CODE
+
+
+
+    &-list-one
+        padding: 12px  0 12px 30px
+        margin-left: 2px
+        margin-right: 20px
+        border-top: 1px solid #dbdbdb
+        border-bottom: 1px solid #dbdbdb
+
+    &-list-element-time-range-container,
+    &-list-element-name,
+    &-list-element-time-range-element
+        display: inline-block
+
+    &-list-element-name
+        margin-right: 30px
+
+    &-list-element-time-range-element
+        font-size(13px)
+        margin-right: 30px
+        color: #acacac
