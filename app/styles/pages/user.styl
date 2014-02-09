@@ -75,9 +75,56 @@
         float: left
         width: 100%
         margin-top: 20px
-        border 1px solid #00ff00
         padding-left: 25px
-    
+
+    &-profile-eat-one
+        display: inline-block
+        width: 32%
+        text-align: center
+        padding-top: 68px
+        &.morning
+            background: url('/images/morning.png') no-repeat center top
+        &.afternoon
+            background: url('/images/afternoon.png') no-repeat center top
+        &.evening
+            background: url('/images/evening.png') no-repeat center top
+
+        input[type="time"]
+            margin-top: 10px
+            padding-left: 8px
+            text-align: center
+            border: none
+            &:focus
+                outline: none
+            &::-webkit-clear-button,
+            &::-webkit-inner-spin-button,
+            &::-webkit-datetime-edit-ampm-field
+                display: none;
+
+        input[disabled]
+            display: inline-block
+            opacity: .5
+
+    &-profile-eat-budget-input
+        min-width: 20px
+        max-width: 30px
+        border: none
+        display: inline-block
+        background-color: transparent
+        &:focus
+            outline: none
+
+    &-profile-eat-budget-wrapper
+
+        margin-top: 20px
+        display: inline-block
+        padding: 10px
+        color: #77a139
+        background: #f4f4f4
+
+    &-profile-eat-times
+        padding-top: 20px
+
     &-profile-eat-container
         width: 50%
         float: left

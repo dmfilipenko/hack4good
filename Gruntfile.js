@@ -309,14 +309,15 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('build', [
+
         'clean:dist',
-        'stylus',
         'useminPrepare',
         'imagemin',
         'htmlmin',
         'concat',
         'uglify',
         'requirejs',
+        'stylus',
         'copy',
         'rev',
         'usemin'

@@ -23,9 +23,25 @@
         <div class="user-profile-eat-wrapper clearfix">
             <div class="user-profile-eat-container">
                 <div class="user-profile-eat-title">Обычно я ем в:</div>
+                <div class="user-profile-eat-times">
+                    <div class="user-profile-eat-one morning">
+                        <input type="time" name="time" value="12:03">
+                    </div>
+                    <div class="user-profile-eat-one afternoon">
+                        <input type="time" name="time" value="16:03">
+                    </div>
+                    <div class="user-profile-eat-one evening">
+                        <input type="time" name="time" disabled>
+                    </div>
+                </div>
             </div>
             <div class="user-profile-budget">
                 <div class="user-profile-eat-title">Бюджет:</div>
+                <div class="user-profile-eat-budget-wrapper">
+                    <input type="text" class="user-profile-eat-budget-input" value="50"/>
+                    <span>-</span>
+                    <input type="text" class="user-profile-eat-budget-input" value="100"/>
+                </div>
             </div>
         </div>
 
