@@ -4,7 +4,7 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'hbs!templates/user'
+    'hbs!templates/user2'
 ], function($, _, Backbone,  UserTemplate) {
     'use strict';
 

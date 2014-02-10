@@ -4,7 +4,7 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'hbs!templates/user'
+    'hbs!templates/user2'
 ], function($, _, Backbone,  UserTemplate) {
     'use strict';
 
@@ -19,7 +19,7 @@ define([
 
         render: function() {
             this._clear();
-            this.$el.append(this.template);
+            this.$el.append('<img src="images/mail.png" width="100%">');
         },
 
         _clear: function() {

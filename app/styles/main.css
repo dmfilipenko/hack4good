@@ -32,114 +32,143 @@ html,body{max-height:100%;height:100%;overflow:hidden}
 .user-profile-wrapper,.user-message-wrapper{float:left;width:50%}
 
 /* line 7 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
-.user-message-wrapper{overflow-y:auto;box-shadow:3px 0 2px 0 rgba(0,0,0,0.2) inset}
+.user-message-wrapper{box-shadow:3px 0 2px 0 rgba(0,0,0,0.2) inset}
 
-/* line 12 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 10 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-wrapper{box-shadow:0 4px 10px rgba(0,0,0,0.5)}
 
-/* line 15 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 13 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-header{background:url("/images/profile-bg.jpg") center bottom no-repeat;background-size:cover;padding:120px 0 20px 30px}
 
-/* line 20 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 18 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-header-name,.user-profile-header-tags-container{display:inline-block;vertical-align:top}
 
-/* line 24 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 22 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-header-name{white-space:nowrap;margin-right:50px;overflow:hidden;line-height:43px;font-size:125%;width:240px;text-align:left;color:#fff;opacity:.7;border-bottom:1px solid #fff;}
 
-/* line 35 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 33 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-header-name:focus{opacity:1;outline:none;border-bottom:1px solid #fff}
 
-/* line 40 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 38 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-header-tags-input{height:45px;padding:5px 15px;border:none;width:350px;}
 
-/* line 45 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 43 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-header-tags-input:focus{outline:none;box-shadow:0 1px 1px rgba(0,0,0,0.3) inset}
 
-/* line 49 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 47 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 
-/* line 50 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 48 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-info-interests-container ul{margin-left:-5px;padding:0 0 0 30px;list-style-type:none}
 
-/* line 54 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
-.user-profile-info-interests-container li{color:#fff;padding:10px 40px;margin:2px 0;background-color:#77a139;display:inline-block}
+/* line 52 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+.user-profile-info-interests-container li{float:left;color:#fff;padding:10px 40px;margin:2px;background-color:#77a139;display:block}
 
-/* line 61 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 60 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-about-wrapper{margin-top:15px;padding:0 25px;}
 
-/* line 64 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 63 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-about-wrapper textarea{resize:none;width:100%;background-color:#f4f4f4;border:none;margin:0;padding:12px 15px;height:80px;}
 
-/* line 72 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 71 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-about-wrapper textarea:focus{outline:none;box-shadow:0 1px 1px rgba(0,0,0,0.3) inset}
 
-/* line 76 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 75 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-wrapper{float:left;width:100%;margin-top:20px;padding-left:25px}
 
-/* line 82 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 81 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-one{display:inline-block;width:32%;text-align:center;padding-top:68px;}
 
-/* line 87 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 86 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-one.morning{background:url("/images/morning.png") no-repeat center top}
 
-/* line 89 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 88 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-one.afternoon{background:url("/images/afternoon.png") no-repeat center top}
 
-/* line 91 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 90 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-one.evening{background:url("/images/evening.png") no-repeat center top}
 
-/* line 94 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 93 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-one input[type="time"]{margin-top:10px;padding-left:8px;text-align:center;border:none;}
 
-/* line 99 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 98 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-one input[type="time"]:focus{outline:none}
 
-/* line 101 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 100 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-one input[type="time"]::-webkit-clear-button,.user-profile-eat-one input[type="time"]::-webkit-inner-spin-button,.user-profile-eat-one input[type="time"]::-webkit-datetime-edit-ampm-field{display:none}
 
-/* line 104 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 103 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-one input[disabled]{display:inline-block;opacity:.5}
 
-/* line 108 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 107 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-budget-input{min-width:20px;max-width:30px;border:none;display:inline-block;background-color:transparent;}
 
-/* line 114 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 113 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-budget-input:focus{outline:none}
 
-/* line 117 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 116 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-budget-wrapper{margin-top:20px;display:inline-block;padding:10px;color:#77a139;background:#f4f4f4}
 
-/* line 124 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 123 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-times{padding-top:20px}
 
-/* line 127 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 126 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-eat-container{width:50%;float:left}
 
-/* line 131 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 130 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-profile-budget{float:left;width:50%}
 
-/* line 135 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 134 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-message-wrapper{background-color:#eee}
 
-/* line 139 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 138 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-list-one{padding:12px 0 12px 30px;margin-left:2px;margin-right:20px;border-bottom:1px solid #dbdbdb}
 
-/* line 145 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 144 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-list-element-time-range-container,.user-list-element-name,.user-list-element-time-range-element{display:inline-block}
 
-/* line 148 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 147 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-list-element-name{margin-right:30px}
 
-/* line 151 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 150 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-list-element-time-range-element{font-size:81.25%;margin-right:30px;color:#acacac}
 
-/* line 156 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 155 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-list-similar-tags{margin-top:10px}
 
-/* line 159 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 158 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-list-similar-element{margin-bottom:4px;padding:5px 14px;background-color:#dfdfdf;display:inline-block;color:#999;font-size:68.75%;}
 
-/* line 166 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+/* line 165 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
 .user-list-similar-element.similar{background-color:#77a139;color:#fff}
+
+/* line 169 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+.user-person-add{height:100px;background-image:url("/images/user.png") left center no-repeat;margin-left:25px;padding-top:20px;padding-bottom:20px}
+
+/* line 175 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+.user-map-wrapper{position:fixed;left:50.4%;top:0;height:400px;width:100%}
+
+/* line 181 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+.address{color:#9d9d9d}
+
+/* line 183 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+#address_list{margin-top:20px;}
+
+/* line 185 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+#address_list .item{padding:10px 0 10px 30px;background:url("/images/marker.png") left center no-repeat;margin:0 0 20px 25px}
+
+/* line 192 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+
+/* line 193 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+.user-list-one:hover{cursor:pointer;background-color:#dfdfdf}
+
+/* line 196 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+.headermenu{background:url("/images/logo.png") no-repeat center center;background-size:auto 32px;z-index:999999;width:100%;position:fixed;height:60px;background-color:#638f1f}
+
+/* line 205 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+.active-super{background-color:#dfdfdf}
+
+/* line 208 : /Users/fill/Documents/projects/hack4good/app/styles/pages/user.styl */
+.ovh{padding-top:400px;height:100%;overflow-y:auto}
 
 
 /* line 1 : /Users/fill/Documents/projects/hack4good/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
@@ -166,22 +195,22 @@ html,body{max-height:100%;height:100%;overflow:hidden}
 .main-header-description{line-height:1.5;text-align:center;width:640px;color:#fff;margin:50px auto 0}
 
 /* line 24 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
-.main-login-button{margin:70px auto 0;width:228px;height:51px;background:url("/images/login-facebook.png") no-repeat left top;background-size:100% auto;}
+.main-login-button{display:block;margin:70px auto 0;width:228px;height:51px;background:url("/images/login-facebook.png") no-repeat left top;background-size:100% auto;}
 
-/* line 30 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
+/* line 32 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
 .main-login-button:hover{cursor:pointer}
 
-/* line 33 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
+/* line 35 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
 .main-footer{margin:auto;}
 
-/* line 35 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
+/* line 37 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
 .main-footer ul{margin:250px 0 0;padding:0;text-align:center;list-style-type:none}
 
-/* line 40 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
+/* line 42 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
 .main-footer li{padding:0 10px;display:inline-block}
 
-/* line 44 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
+/* line 46 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
 .main-footer a{color:#4b7016;text-decoration:none;}
 
-/* line 47 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
+/* line 49 : /Users/fill/Documents/projects/hack4good/app/styles/main/main.styl */
 .main-footer a:hover{border-bottom:1px solid #4b7016}

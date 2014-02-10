@@ -2,10 +2,15 @@
 'use strict';
 
 require.config({
-
     shim: {
         underscore: {
             exports: '_'
+        },
+        hbs: { // optional
+            helpers: true,            // default: true
+            i18n: false,              // default: false
+            templateExtension: 'hbs', // default: 'hbs'
+            partialsUrl: ''           // default: ''
         },
         backbone: {
             deps: [
@@ -16,22 +21,18 @@ require.config({
         }
     },
     paths: {
-        hbs: '../bower_components/require-handlebars-plugin/hbs',
+        hbs:'../bower_components/require-handlebars-plugin/hbs',
         jquery: '../bower_components/jquery/jquery',
         backbone: '../bower_components/backbone/backbone',
         underscore: '../bower_components/underscore/underscore'
-    },
-    hbs: { // optional
-        helpers: true,            // default: true
-        i18n: false,              // default: false
-        templateExtension: 'hbs' // default: 'hbs'
     }
 });
 
 require([
     'backbone',
     'routes/application'
-], function(Backbone, AppRoute) {
+], function (Backbone, AppRoute) {
     new AppRoute()
     Backbone.history.start();
+
 });

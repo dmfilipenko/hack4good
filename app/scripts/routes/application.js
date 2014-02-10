@@ -4,13 +4,21 @@ define([
     'jquery',
     'backbone',
     'views/main',
-    'views/user'
-], function($, Backbone, MainView, UserView) {
+    'views/user',
+    'views/other_users',
+    'views/allusers',
+    'views/user2',
+    'views/mail'
+], function($, Backbone, MainView, UserView, OtherUsersView, AllUserView, User2View, Mail) {
     'use strict';
 
     var ApplicationRouter = Backbone.Router.extend({
         routes: {
             "user": "user",
+            "other_users": "other_users",
+            "user2": "user2",
+            "allusers": "allusers",
+            "mail":"mail",
             "*action": "defaultRoute"
         },
 
@@ -19,9 +27,25 @@ define([
             new MainView()
         },
 
+        allusers: function() {
+            new AllUserView()
+        },
+
+        other_users: function() {
+            new OtherUsersView()
+        },
+
         user: function() {
+            console.log('default route')
             new UserView()
-            console.log("user")
+        },
+
+        user2: function() {
+            new User2View()
+        },
+
+        mail: function() {
+            new Mail()
         },
 
         help: function() {

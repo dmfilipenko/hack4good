@@ -1,17 +1,15 @@
 <div class="user-wrapper clearfix">
-<a href="#allusers" class="headermenu">
-    <div class="headermenu">
-        <img src="images/mail_user.png" alt=""  style="float:right; margin-top: 15px;margin-right: 20px"/>
-    </div>
-</a>
-<div class="user-profile-wrapper clearfix">
-    <div class="user-profile-header clearfix">
+<div class="headermenu">
+    <img src="images/mail_user.png" style="float:right; margin-top: 10px;" alt=""/>
+</div>
+<div class="user-profile-wrapper">
+    <div class="user-profile-header">
         <div class="user-profile-header-name" contenteditable>Александр</div>
-        <div class="user-profile-header-tags-container clearfix">
+        <div class="user-profile-header-tags-container">
             <input placeholder="Введите #тег интереса" type="text" class="user-profile-header-tags-input"/>
         </div>
     </div>
-    <div class="user-profile-tags-wrapper clearfix">
+    <div class="user-profile-tags-wrapper">
         <div class="user-profile-info-interests-container">
             <ul>
                 <li>Живопись</li>
@@ -26,21 +24,21 @@
         <textarea name="" id="" placeholder="О себе"></textarea>
     </div>
     <div class="user-profile-eat-wrapper clearfix">
-        <div class="user-profile-eat-container" style="width: 60%">
+        <div class="user-profile-eat-container">
             <div class="user-profile-eat-title">Обычно я ем в:</div>
             <div class="user-profile-eat-times">
                 <div class="user-profile-eat-one morning">
-                    <span style="display: inline-block; margin-top: 10px;color: #999">8:00 - 10:00</span>
+                    <input type="time" name="time" value="12:03">
                 </div>
                 <div class="user-profile-eat-one afternoon">
-                    <span style="display: inline-block;margin-top: 10px;color: #999">12:00 - 13:00</span>
+                    <input type="time" name="time" value="16:03">
                 </div>
                 <div class="user-profile-eat-one evening">
                     <input type="time" name="time" disabled>
                 </div>
             </div>
         </div>
-        <div class="user-profile-budget" style="margin-left: 20px;width: 37%">
+        <div class="user-profile-budget">
             <div class="user-profile-eat-title">Бюджет:</div>
             <div class="user-profile-eat-budget-wrapper">
                 <input type="text" class="user-profile-eat-budget-input" value="50"/>
@@ -54,109 +52,32 @@
 </div>
 <div class="user-message-wrapper">
     <div class="user-map-wrapper">
-        <div class="map" id="Map" style="height: 400px;width:50%"></div>
+        <div class="map" id="Map" style="height: 400px;width:100%"></div>
     </div>
-    <div class="ovh" style="overflow-y: auto">
-        <div id="address_list">
-        </div>
-        <h4 style="padding-left: 30px;">Мои контакты</h4>
-        <div class="user-list">
-            <div class="user-list-one item" data-index="0">
-                <div class="user-list-element-name">Юрий</div>
-                <div class="user-list-element-time-range-container">
-                    <div class="user-list-element-time-range-element">10:00 - 12:00</div>
-                    <div class="user-list-element-time-range-element">14:00 - 15:00</div>
-                </div>
-                <div class="user-list-similar-tags">
-                    <div class="user-list-similar-element similar">UX Design</div>
-                    <div class="user-list-similar-element similar">Живопись</div>
-                    <div class="user-list-similar-element similar">Психология</div>
-                    <div class="user-list-similar-element">Нейронные сети</div>
-                    <div class="user-list-similar-element">Атомная физика</div>
-                    <div class="user-list-similar-element">Астрономия</div>
-                    <div class="user-list-similar-element">Психология дизайна</div>
-                </div>
-            </div>
-            <div class="user-list-one item" data-index="1">
-                <div class="user-list-element-name">Никита</div>
-                <div class="user-list-element-time-range-container">
-                    <div class="user-list-element-time-range-element">9:00 - 10:00</div>
-                </div>
-                <div class="user-list-similar-tags">
-                    <div class="user-list-similar-element similar">UX Design</div>
-                    <div class="user-list-similar-element similar">Живопись</div>
-                    <div class="user-list-similar-element">Бухгалтерия</div>
-                    <div class="user-list-similar-element">Экономика</div>
-                </div>
-            </div>
-            <div class="user-list-one item" data-index="2">
-                <div class="user-list-element-name">Жанна</div>
-                <div class="user-list-element-time-range-container">
-                    <div class="user-list-element-time-range-element">10:00 - 12:00</div>
-                </div>
-                <div class="user-list-similar-tags">
-                    <div class="user-list-similar-element similar">UX Design</div>
-                    <div class="user-list-similar-element similar">Живопись</div>
-                    <div class="user-list-similar-element similar">Психология</div>
-                    <div class="user-list-similar-element">Нейронные сети</div>
-                    <div class="user-list-similar-element">Атомная физика</div>
-                    <div class="user-list-similar-element">Астрономия</div>
-                    <div class="user-list-similar-element">Психология дизайна</div>
-                </div>
-            </div>
-            <div class="user-list-one item" data-index="3">
-                <div class="user-list-element-name">Римма</div>
-                <div class="user-list-element-time-range-container">
-                    <div class="user-list-element-time-range-element">10:00 - 12:00</div>
-                </div>
-                <div class="user-list-similar-tags">
-                    <div class="user-list-similar-element similar">UX Design</div>
-                    <div class="user-list-similar-element similar">Живопись</div>
-                    <div class="user-list-similar-element similar">Психология</div>
-                    <div class="user-list-similar-element">Нейронные сети</div>
-                    <div class="user-list-similar-element">Атомная физика</div>
-                    <div class="user-list-similar-element">Астрономия</div>
-                    <div class="user-list-similar-element">Психология дизайна</div>
-                </div>
-            </div>
-            <div class="user-list-one item" data-index="4">
-                <div class="user-list-element-name">Юрий</div>
-                <div class="user-list-element-time-range-container">
-                    <div class="user-list-element-time-range-element">10:00 - 12:00</div>
-                    <div class="user-list-element-time-range-element">14:00 - 15:00</div>
-                </div>
-                <div class="user-list-similar-tags">
-                    <div class="user-list-similar-element similar">UX Design</div>
-                    <div class="user-list-similar-element similar">Живопись</div>
-                    <div class="user-list-similar-element similar">Психология</div>
-                    <div class="user-list-similar-element">Нейронные сети</div>
-                    <div class="user-list-similar-element">Атомная физика</div>
-                    <div class="user-list-similar-element">Астрономия</div>
-                    <div class="user-list-similar-element">Психология дизайна</div>
-                </div>
-            </div>
-        </div>
+    <div id="address_list">
     </div>
+
 </div>
 
 
+
 <script>
+
 
 
 </script>
 <script>
 
 var loc = [];
-loc.push(["50.439737, 30.379519999999957 "]);
-loc.push(["50.431784, 30.404976000000033"]);
-loc.push(["50.4320398, 30.471058500000026"]);
-loc.push([ "50.12546, 30.4361269999892"]);
-loc.push(["50.482146, 30.596777999999972"]);
-loc.push(["50.464886, 30.45667900000001"]);
-
-
-
-
+loc.push(["50.439737, 30.379519999999957 ", "50.453531, 30.423581000000013 ", "50.422546, 30.436126999999942 "]);
+loc.push(["50.464886, 30.45667900000001",
+    "50.431784, 30.404976000000033",
+    "50.4320398, 30.471058500000026",
+    "50.482146, 30.596777999999972"]);
+loc.push(["50.4154614, 30.46917170000006",
+    "50.4229235, 30.64391580000006",
+    "50.40319, 30.524339000000055",
+    "50.4856905, 30.671182300000055"]);
 
 
 $(document).ready(function() {
@@ -393,7 +314,6 @@ $(document).ready(function() {
             return retAddress;
         }
     }
-
     var mapWrapper = new MapWrapper();
     mapWrapper.init();
     function showAllMarkers() {
@@ -404,7 +324,7 @@ $(document).ready(function() {
         }
     }
 
-    showAllMarkers();
+//    showAllMarkers();
     function clearMap() {
         for (var i = 0; i < mapWrapper.markers.length; i++) {
             mapWrapper.markers[i].setMap(null);
@@ -420,11 +340,12 @@ $(document).ready(function() {
         }
     }
 
-    $(".item").click(
+    $(".item").hover(
             function() {
-
                 showSomeIndex($(this).attr("data-index"));
-                $('#address_list').html('');
+            },
+            function() {
+                showAllMarkers();
             });
 });
 
